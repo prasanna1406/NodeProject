@@ -16,6 +16,7 @@ var app = express();
 var page1 = require('./routes/page1');
 var page2 = require('./routes/page2');
 var signup = require('./routes/signup')
+var users = require('./routes/users');
 
 app.engine('handlebars', exehbs({defaultLayout: 'main'}));
 
@@ -35,6 +36,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/page1', page1);
 app.use('/page2', page2);
 app.use('/signup', signup);
+app.use('/users', users);
 
 app.use(function(req, resp, next){
   var err = new Error('not found');
@@ -43,7 +45,6 @@ app.use(function(req, resp, next){
 })
 
 app.use('/', index);
-app.use('/users', users);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("server has started");
