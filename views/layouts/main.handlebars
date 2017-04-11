@@ -1,7 +1,26 @@
-<h1>main layout</h1>
+<!DOCTYPE html>
+<html>
 
-<h1>{{header}}</h1>
+<head>
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <script src="/javascripts/jquery-3.2.0.min.js"></script>
+  <script src="/javascripts/bootstrap.min.js"></script>
+  <head>
 
-{{{body}}}
+    <body>
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="/page1">Page 1</a></li>
+        <li><a href="/page2">Page 2</a></li>
+        <li style="float:right"><a href="/signup">Sign Up</a></li>
+      </ul>
+      <div id="container">
+        <div id="header">{{header}}</div>
+        <div id="body">{{{body}}}</div>
+        <div id="footer">===footer part===</div>
+      </div>
 
-<h2>===footer part===</h2>
+
+</html>
