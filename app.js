@@ -17,6 +17,8 @@ var page1 = require('./routes/page1');
 var page2 = require('./routes/page2');
 var signup = require('./routes/signup')
 var users = require('./routes/users');
+var quote = require('./routes/quote');
+
 
 app.engine('handlebars', exehbs({defaultLayout: 'main'}));
 
@@ -24,6 +26,7 @@ app.engine('handlebars', exehbs({defaultLayout: 'main'}));
 app.set('port', process.env.PORT || 8008);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'handlebars');
+app.set('disablePage', true);
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
@@ -37,6 +40,7 @@ app.use('/page1', page1);
 app.use('/page2', page2);
 app.use('/signup', signup);
 app.use('/users', users);
+app.use('/quote', quote);
 
 app.use(function(req, resp, next){
   var err = new Error('not found');
