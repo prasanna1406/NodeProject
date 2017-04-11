@@ -16,7 +16,7 @@ router.post('/new', function(req, res) {
         method : 'POST',
         url: 'https://andruxnet-random-famous-quotes.p.mashape.com/?cat=movies',
         headers: {
-        'X-Mashape-Key': procces.env.XMASHAPEKEY,
+          'X-Mashape-Key': process.env.XMASHAPEKEY,
         'Content-Type' : 'application/x-www-form-urlencoded',
         'Accept' : 'application/json'
         }
