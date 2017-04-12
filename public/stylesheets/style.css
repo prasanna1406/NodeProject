@@ -73,7 +73,7 @@ li a:hover:not(.active) {
 }
 
 body {
-  background: #3CC;
+  /*background: #3CC;*/
 }
 
 .container {
@@ -152,4 +152,9 @@ h1, input {
 }
 .inputButton:focus {
   outline: none;
+}
+
+.img-size {
+  width: 500px;
+  height: 200px;
 }

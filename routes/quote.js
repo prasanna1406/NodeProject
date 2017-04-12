@@ -16,16 +16,18 @@ router.post('/new', function(req, res) {
         method : 'POST',
         url: 'https://andruxnet-random-famous-quotes.p.mashape.com/?cat=movies',
         headers: {
-          'X-Mashape-Key': process.env.XMASHAPEKEY,
+          'X-Mashape-Key': process.env.XMASHAPEKEY || 'Wz5nfbQnxSmshER9OVSIWfXvdHWmp1CTXIUjsntop4Pu5mQdNE',
         'Content-Type' : 'application/x-www-form-urlencoded',
         'Accept' : 'application/json'
         }
     };
-    request(options, function (error, response, body) {
+    request(options, callback_get_quote);
+
+    function callback_get_quote(error, response, body) {
       //console.log(JSON.stringify(body));
       if(!error && response.statusCode == 200) {
         res.send(JSON.stringify(body));
       }
-    });
+    }
 });
 module.exports = router;

@@ -18,7 +18,7 @@ var page2 = require('./routes/page2');
 var signup = require('./routes/signup')
 var users = require('./routes/users');
 var quote = require('./routes/quote');
-
+var news = require('./routes/news');
 
 app.engine('handlebars', exehbs({defaultLayout: 'main'}));
 
@@ -41,6 +41,7 @@ app.use('/page2', page2);
 app.use('/signup', signup);
 app.use('/users', users);
 app.use('/quote', quote);
+app.use('/news', news);
 
 app.use(function(req, resp, next){
   var err = new Error('not found');
