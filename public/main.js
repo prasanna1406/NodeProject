@@ -65,4 +65,35 @@ for (var i = 0; i < response.sources.length; i++) {
       }
   });
 
+  $('#sourceshandle').change(function(){
+      if($('#sourceshandle').val()!=""){
+        $('.show-news').html("");
+        $('.show-news').addClass('loader');
+        $.ajax({
+          type : 'post',
+          data : {
+              'source' : $('#sourceshandle').val()
+          },
+          url : '/news/getnewsbysouces',
+          dataType : 'json',
+          success : function(res){
+            response = JSON.parse(res);
+            console.log(response);
+            var container = '';
+            for (var i = 0; i < response.articles.length; i++) {
+              container +="<div class='col-md-6'>"+
+              "<h3 class='title'>"+response.articles[i].title+"</h3>"+
+              "<img class='img-size' src='"+response.articles[i].urlToImage+"'></img>"+
+              "<p class=''>"+response.articles[i].description+"</p>"+
+              "<p class='col-md-3'><a target='_blank' href='"+response.articles[i].url+"'>More info</a></p>"+
+              "</div>";
+            }
+            $('.show-news').removeClass('loader');
+            $('.show-news').html(container);
+
+          }
+        });
+      }
+  });
+
 });

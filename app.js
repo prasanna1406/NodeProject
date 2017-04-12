@@ -19,6 +19,7 @@ var signup = require('./routes/signup')
 var users = require('./routes/users');
 var quote = require('./routes/quote');
 var news = require('./routes/news');
+var dbconnection = require('./db_connection/db.js');
 
 app.engine('handlebars', exehbs({defaultLayout: 'main'}));
 

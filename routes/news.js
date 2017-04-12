@@ -3,9 +3,30 @@ var router = express.Router();
 var request = require('request');
 
 router.get('/', function (req, res) {
-  res.render('news', {
-    title:'news'
-  });
+
+  var sources = [];
+  var options = {
+        url: 'https://newsapi.org/v1/sources?language=en'
+    }
+
+    request(options, callbackNewsSource);
+
+
+    function callbackNewsSource(error, response, body) {
+      //console.log(JSON.stringify(body));
+      if(!error && response.statusCode == 200) {
+        var resp = JSON.parse(body);
+        for (var i = 0; i < resp.sources.length; i++) {
+          sources.push(resp.sources[i]);
+        }
+        res.render('news', {
+          title:'news',
+          sources : sources
+        });
+      }
+    }
+
+
 });
 
 router.get('/getsources', getListOfSources);
@@ -35,7 +56,7 @@ function getListOfNews(req, res) {
   console.log(req.body.source);
 
   var newsApiKey = process.env.NEWSAPIKEY || 'fd97fccd2fa14e42860647110afc8bf9';
-  var link = 'https://newsapi.org/v1/articles?source=' +req.body.source+ '&apiKey='+ newsApiKey;
+  var link = 'https://newsapi.org/v1/articles?source=' + req.body.source + '&apiKey='+ newsApiKey;
   var options = {
         url: link
     }

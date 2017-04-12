@@ -1,8 +1,18 @@
 <h1> Welcome to news portal</h1>
 
-<select class='form-control' name="sources" id="sources">
-  <option value="">Select Sources</option>
+<label>Fetch sources using ajax</label>
+<select class='form-control' name="sources" id="sources" class='sources'>
+  <option value="">Select Source</option>
 </select>
+<br><br>
+<label>Fetch sources using handlebar</label>
+<select class='form-control' name="sources" id="sourceshandle" class='sourceshandle'>
+  <option value="">Select Source</option>
+  {{# each sources}}
+    <option value='{{./id}}'>{{./name}}</option>
+  {{/each}}
+</select>
+
 <div class='container' style="padding-top: 60px;">
   <div class='row show-news'>
 
