@@ -36,6 +36,8 @@ for (var i = 0; i < response.sources.length; i++) {
 
   $('#sources').change(function(){
       if($('#sources').val()!=""){
+        $('.show-news').html("");
+        $('.show-news').addClass('loader');
         $.ajax({
           type : 'post',
           data : {
@@ -55,7 +57,9 @@ for (var i = 0; i < response.sources.length; i++) {
               "<p class='col-md-3'><a target='_blank' href='"+response.articles[i].url+"'>More info</a></p>"+
               "</div>";
             }
+            $('.show-news').removeClass('loader');
             $('.show-news').html(container);
+
           }
         });
       }
