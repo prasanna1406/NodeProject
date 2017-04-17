@@ -1,0 +1,245 @@
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T06:58:56.088Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T06:59:36.098Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T06:59:54.438Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T08:57:37.061Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T09:03:10.720Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T09:03:26.328Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T09:16:11.443Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T09:18:28.753Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T09:38:06.918Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T09:38:12.700Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T09:38:16.632Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T09:38:29.709Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T09:38:41.118Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T09:38:52.869Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T09:53:29.128Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T09:53:31.737Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T09:53:34.298Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T09:56:52.824Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T09:57:06.074Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:27:18.993Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:27:24.391Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:27:35.594Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:27:42.797Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:27:49.946Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:27:55.173Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:28:02.892Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:28:07.116Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:28:10.400Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:28:14.024Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:28:23.606Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:28:51.913Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:29:02.489Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:29:04.932Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:29:10.528Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:29:19.551Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:29:24.347Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:29:26.835Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:29:29.091Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:29:30.572Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:29:39.972Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:31:28.308Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:31:31.787Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:32:21.936Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:32:43.574Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:33:06.605Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:34:29.227Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:35:27.766Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:35:33.154Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:35:40.221Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:35:41.832Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:35:57.051Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:35:59.613Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:38:55.147Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T10:42:34.437Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T11:56:01.722Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T11:57:13.924Z"}
+{"level":"info","message":"-------------- UNCAUGHT EXCEPTION: [object Object]","timestamp":"2017-04-14T11:57:29.989Z"}
+{"level":"info","message":"------------- ERROR STACK -------------","timestamp":"2017-04-14T11:57:29.990Z"}
+{"level":"info","message":"","timestamp":"2017-04-14T11:57:29.990Z"}
+{"level":"info","message":"---------------------------------------","timestamp":"2017-04-14T11:57:29.991Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T11:58:40.539Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T11:58:49.745Z"}
+{"level":"info","message":"-------------- UNCAUGHT EXCEPTION: ","timestamp":"2017-04-14T11:58:54.230Z"}
+{"level":"info","message":"------------- ERROR STACK -------------","timestamp":"2017-04-14T11:58:54.230Z"}
+{"level":"info","message":"","timestamp":"2017-04-14T11:58:54.231Z"}
+{"level":"info","message":"---------------------------------------","timestamp":"2017-04-14T11:58:54.233Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T11:59:23.606Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T11:59:39.348Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:05:39.706Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:05:47.822Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:07:07.533Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:07:22.324Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:07:24.965Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:07:27.964Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:07:34.626Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:07:37.240Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:07:43.105Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:07:46.515Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:07:48.235Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:08:31.673Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:08:41.833Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:09:33.478Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:09:42.542Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:10:03.145Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:10:06.586Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:10:15.435Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:10:18.087Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:10:51.927Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:11:00.141Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:11:02.993Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:11:04.193Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:16:22.552Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:16:24.145Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:16:30.503Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:16:35.737Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:16:39.059Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:17:01.684Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:17:33.771Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:17:37.546Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:17:54.361Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:18:03.431Z"}
+{"level":"info","message":"-------------- UNCAUGHT EXCEPTION: SyntaxError: Unexpected token o in JSON at position 1","timestamp":"2017-04-14T12:18:09.788Z"}
+{"level":"info","message":"------------- ERROR STACK -------------","timestamp":"2017-04-14T12:18:09.789Z"}
+{"level":"info","message":"SyntaxError: Unexpected token o in JSON at position 1\n    at Object.parse (native)\n    at Query._callback (/home/perennial/nodeProjects/NodeProject/config/manageUser.js:21:21)\n    at Query.Sequence.end (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)\n    at Query._handleFinalResultPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)\n    at Query.EofPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)\n    at Protocol._parsePacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:280:23)\n    at Parser.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Parser.js:75:12)\n    at Protocol.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:96:13)\n    at Socket.emit (events.js:188:7)\n    at readableAddChunk (_stream_readable.js:176:18)\n    at Socket.Readable.push (_stream_readable.js:134:10)\n    at TCP.onread (net.js:548:20)","timestamp":"2017-04-14T12:18:09.791Z"}
+{"level":"info","message":"---------------------------------------","timestamp":"2017-04-14T12:18:09.797Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:18:56.660Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:18:58.699Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:18:59.985Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:19:37.986Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:20:05.740Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:20:20.672Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:20:25.396Z"}
+{"level":"info","message":"-------------- UNCAUGHT EXCEPTION: TypeError: Cannot read property 'id' of undefined","timestamp":"2017-04-14T12:20:31.217Z"}
+{"level":"info","message":"------------- ERROR STACK -------------","timestamp":"2017-04-14T12:20:31.218Z"}
+{"level":"info","message":"TypeError: Cannot read property 'id' of undefined\n    at Query._callback (/home/perennial/nodeProjects/NodeProject/config/manageUser.js:23:39)\n    at Query.Sequence.end (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)\n    at Query._handleFinalResultPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)\n    at Query.EofPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)\n    at Protocol._parsePacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:280:23)\n    at Parser.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Parser.js:75:12)\n    at Protocol.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:96:13)\n    at Socket.emit (events.js:188:7)\n    at readableAddChunk (_stream_readable.js:176:18)\n    at Socket.Readable.push (_stream_readable.js:134:10)\n    at TCP.onread (net.js:548:20)","timestamp":"2017-04-14T12:20:31.221Z"}
+{"level":"info","message":"---------------------------------------","timestamp":"2017-04-14T12:20:31.230Z"}
+{"level":"info","message":"-------------- UNCAUGHT EXCEPTION: TypeError: Cannot read property 'id' of undefined","timestamp":"2017-04-14T12:22:31.215Z"}
+{"level":"info","message":"------------- ERROR STACK -------------","timestamp":"2017-04-14T12:22:31.215Z"}
+{"level":"info","message":"TypeError: Cannot read property 'id' of undefined\n    at Query._callback (/home/perennial/nodeProjects/NodeProject/config/manageUser.js:23:39)\n    at Query.Sequence.end (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)\n    at Query._handleFinalResultPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)\n    at Query.EofPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)\n    at Protocol._parsePacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:280:23)\n    at Parser.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Parser.js:75:12)\n    at Protocol.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:96:13)\n    at Socket.emit (events.js:188:7)\n    at readableAddChunk (_stream_readable.js:176:18)\n    at Socket.Readable.push (_stream_readable.js:134:10)\n    at TCP.onread (net.js:548:20)","timestamp":"2017-04-14T12:22:31.216Z"}
+{"level":"info","message":"---------------------------------------","timestamp":"2017-04-14T12:22:31.217Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:44:24.433Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:44:28.278Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:44:38.912Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:44:40.568Z"}
+{"level":"info","message":"-------------- UNCAUGHT EXCEPTION: TypeError: Cannot read property 'id' of undefined","timestamp":"2017-04-14T12:44:48.265Z"}
+{"level":"info","message":"------------- ERROR STACK -------------","timestamp":"2017-04-14T12:44:48.266Z"}
+{"level":"info","message":"TypeError: Cannot read property 'id' of undefined\n    at Query._callback (/home/perennial/nodeProjects/NodeProject/config/manageUser.js:23:39)\n    at Query.Sequence.end (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)\n    at Query._handleFinalResultPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)\n    at Query.EofPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)\n    at Protocol._parsePacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:280:23)\n    at Parser.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Parser.js:75:12)\n    at Protocol.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:96:13)\n    at Socket.emit (events.js:188:7)\n    at readableAddChunk (_stream_readable.js:176:18)\n    at Socket.Readable.push (_stream_readable.js:134:10)\n    at TCP.onread (net.js:548:20)","timestamp":"2017-04-14T12:44:48.267Z"}
+{"level":"info","message":"---------------------------------------","timestamp":"2017-04-14T12:44:48.269Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:45:19.326Z"}
+{"level":"info","message":"-------------- UNCAUGHT EXCEPTION: TypeError: Cannot read property 'id' of undefined","timestamp":"2017-04-14T12:45:25.927Z"}
+{"level":"info","message":"------------- ERROR STACK -------------","timestamp":"2017-04-14T12:45:25.927Z"}
+{"level":"info","message":"TypeError: Cannot read property 'id' of undefined\n    at Query._callback (/home/perennial/nodeProjects/NodeProject/config/manageUser.js:24:22)\n    at Query.Sequence.end (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)\n    at Query._handleFinalResultPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)\n    at Query.EofPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)\n    at Protocol._parsePacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:280:23)\n    at Parser.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Parser.js:75:12)\n    at Protocol.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:96:13)\n    at Socket.emit (events.js:188:7)\n    at readableAddChunk (_stream_readable.js:176:18)\n    at Socket.Readable.push (_stream_readable.js:134:10)\n    at TCP.onread (net.js:548:20)","timestamp":"2017-04-14T12:45:25.929Z"}
+{"level":"info","message":"---------------------------------------","timestamp":"2017-04-14T12:45:25.929Z"}
+{"level":"info","message":"-------------- UNCAUGHT EXCEPTION: TypeError: Cannot read property 'id' of undefined","timestamp":"2017-04-14T12:47:25.926Z"}
+{"level":"info","message":"------------- ERROR STACK -------------","timestamp":"2017-04-14T12:47:25.926Z"}
+{"level":"info","message":"TypeError: Cannot read property 'id' of undefined\n    at Query._callback (/home/perennial/nodeProjects/NodeProject/config/manageUser.js:24:22)\n    at Query.Sequence.end (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)\n    at Query._handleFinalResultPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)\n    at Query.EofPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)\n    at Protocol._parsePacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:280:23)\n    at Parser.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Parser.js:75:12)\n    at Protocol.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:96:13)\n    at Socket.emit (events.js:188:7)\n    at readableAddChunk (_stream_readable.js:176:18)\n    at Socket.Readable.push (_stream_readable.js:134:10)\n    at TCP.onread (net.js:548:20)","timestamp":"2017-04-14T12:47:25.926Z"}
+{"level":"info","message":"---------------------------------------","timestamp":"2017-04-14T12:47:25.927Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:47:30.622Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:47:32.924Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:47:35.298Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:47:37.225Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:47:48.468Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:47:52.797Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:48:27.074Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:48:34.861Z"}
+{"level":"info","message":"-------------- UNCAUGHT EXCEPTION: prasanna.wagh14@gmail.com","timestamp":"2017-04-14T12:48:41.585Z"}
+{"level":"info","message":"------------- ERROR STACK -------------","timestamp":"2017-04-14T12:48:41.585Z"}
+{"level":"info","message":"","timestamp":"2017-04-14T12:48:41.586Z"}
+{"level":"info","message":"---------------------------------------","timestamp":"2017-04-14T12:48:41.586Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:49:03.470Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:49:13.117Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:49:48.412Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:49:54.510Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:50:01.549Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:50:12.298Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:50:15.302Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:50:20.586Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:50:23.445Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:50:27.263Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:50:31.296Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:50:35.837Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:50:38.036Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:50:40.813Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:50:46.648Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:50:50.333Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:54:16.365Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:54:22.957Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:55:18.122Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:55:20.889Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:55:41.136Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:56:02.413Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:56:06.231Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:56:07.584Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:56:12.919Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:57:07.151Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:58:05.008Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:58:27.744Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T12:59:04.448Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:19:41.006Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:20:17.920Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:25:01.476Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:27:50.536Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:27:57.749Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:28:02.753Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:28:37.360Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:31:13.366Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:31:17.033Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:31:18.659Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:31:21.959Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:31:45.152Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:32:07.884Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:32:32.822Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:41:47.164Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:41:57.301Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:42:03.490Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:42:05.127Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:42:08.588Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:42:10.899Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:43:33.152Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:43:48.136Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:44:19.066Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:45:21.593Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:45:37.312Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:45:47.643Z"}
+{"level":"info","message":"-------------- UNCAUGHT EXCEPTION: TypeError: req.flash is not a function","timestamp":"2017-04-14T13:46:03.675Z"}
+{"level":"info","message":"------------- ERROR STACK -------------","timestamp":"2017-04-14T13:46:03.676Z"}
+{"level":"info","message":"TypeError: req.flash is not a function\n    at /home/perennial/nodeProjects/NodeProject/routes/login.js:19:46\n    at Query._callback (/home/perennial/nodeProjects/NodeProject/config/manageUser.js:24:9)\n    at Query.Sequence.end (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)\n    at Query._handleFinalResultPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)\n    at Query.EofPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)\n    at Protocol._parsePacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:280:23)\n    at Parser.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Parser.js:75:12)\n    at Protocol.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:96:13)\n    at Socket.emit (events.js:188:7)\n    at readableAddChunk (_stream_readable.js:176:18)\n    at Socket.Readable.push (_stream_readable.js:134:10)\n    at TCP.onread (net.js:548:20)","timestamp":"2017-04-14T13:46:03.678Z"}
+{"level":"info","message":"---------------------------------------","timestamp":"2017-04-14T13:46:03.678Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:47:33.479Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:47:36.054Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:47:37.362Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:47:41.815Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:48:17.689Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:48:22.583Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:48:28.303Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:48:58.739Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:49:00.428Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:49:02.198Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:49:21.805Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:49:41.067Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:50:00.343Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:50:25.753Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:50:45.427Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:51:17.871Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:51:25.861Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:52:02.125Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:52:26.516Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:52:27.444Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:52:29.884Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:52:40.101Z"}
+{"level":"info","message":"-------------- UNCAUGHT EXCEPTION: ReferenceError: message is not defined","timestamp":"2017-04-14T13:52:47.551Z"}
+{"level":"info","message":"------------- ERROR STACK -------------","timestamp":"2017-04-14T13:52:47.551Z"}
+{"level":"info","message":"ReferenceError: message is not defined\n    at /home/perennial/nodeProjects/NodeProject/routes/login.js:21:52\n    at Query._callback (/home/perennial/nodeProjects/NodeProject/config/manageUser.js:24:9)\n    at Query.Sequence.end (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)\n    at Query._handleFinalResultPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)\n    at Query.EofPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)\n    at Protocol._parsePacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:280:23)\n    at Parser.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Parser.js:75:12)\n    at Protocol.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:96:13)\n    at Socket.emit (events.js:188:7)\n    at readableAddChunk (_stream_readable.js:176:18)\n    at Socket.Readable.push (_stream_readable.js:134:10)\n    at TCP.onread (net.js:548:20)","timestamp":"2017-04-14T13:52:47.554Z"}
+{"level":"info","message":"---------------------------------------","timestamp":"2017-04-14T13:52:47.561Z"}
+{"level":"info","message":"-------------- UNCAUGHT EXCEPTION: ReferenceError: message is not defined","timestamp":"2017-04-14T13:52:48.030Z"}
+{"level":"info","message":"------------- ERROR STACK -------------","timestamp":"2017-04-14T13:52:48.030Z"}
+{"level":"info","message":"ReferenceError: message is not defined\n    at /home/perennial/nodeProjects/NodeProject/routes/login.js:21:52\n    at Query._callback (/home/perennial/nodeProjects/NodeProject/config/manageUser.js:24:9)\n    at Query.Sequence.end (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)\n    at Query._handleFinalResultPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)\n    at Query.EofPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)\n    at Protocol._parsePacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:280:23)\n    at Parser.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Parser.js:75:12)\n    at Protocol.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:96:13)\n    at Socket.emit (events.js:188:7)\n    at readableAddChunk (_stream_readable.js:176:18)\n    at Socket.Readable.push (_stream_readable.js:134:10)\n    at TCP.onread (net.js:548:20)","timestamp":"2017-04-14T13:52:48.031Z"}
+{"level":"info","message":"---------------------------------------","timestamp":"2017-04-14T13:52:48.031Z"}
+{"level":"info","message":"-------------- UNCAUGHT EXCEPTION: ReferenceError: message is not defined","timestamp":"2017-04-14T13:52:49.242Z"}
+{"level":"info","message":"------------- ERROR STACK -------------","timestamp":"2017-04-14T13:52:49.242Z"}
+{"level":"info","message":"ReferenceError: message is not defined\n    at /home/perennial/nodeProjects/NodeProject/routes/login.js:21:52\n    at Query._callback (/home/perennial/nodeProjects/NodeProject/config/manageUser.js:24:9)\n    at Query.Sequence.end (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)\n    at Query._handleFinalResultPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)\n    at Query.EofPacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)\n    at Protocol._parsePacket (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:280:23)\n    at Parser.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Parser.js:75:12)\n    at Protocol.write (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/home/perennial/nodeProjects/NodeProject/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:96:13)\n    at Socket.emit (events.js:188:7)\n    at readableAddChunk (_stream_readable.js:176:18)\n    at Socket.Readable.push (_stream_readable.js:134:10)\n    at TCP.onread (net.js:548:20)","timestamp":"2017-04-14T13:52:49.243Z"}
+{"level":"info","message":"---------------------------------------","timestamp":"2017-04-14T13:52:49.243Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:53:16.319Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:53:26.541Z"}
+{"level":"info","message":"winston is working","timestamp":"2017-04-14T13:55:55.185Z"}

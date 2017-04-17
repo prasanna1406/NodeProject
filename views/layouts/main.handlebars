@@ -15,12 +15,32 @@
         <li><a href="/home">Home</a></li>
         <li><a href="/page1">Page 1</a></li>
         <li><a href="/page2">Page 2</a></li>
+        {{#if user}}
         <li><a href="/quote">Quote</a></li>
         <li><a href="/news">News Portal</a></li>
         <li style="float:right"><a href="/signup">Sign Up</a></li>
+        {{/if}}
       </ul>
       <div id="container">
-        <div id="header">{{header}}</div>
+        <br />
+        <div id="row">
+
+         {{#if success_msg}}
+           <div class="alert alert-success">{{success_msg}}</div>
+         {{/if}}
+
+         {{#if error_msg}}
+           <div class="alert alert-danger">{{error_msg}}</div>
+         {{/if}}
+
+         {{#if errors}}
+          {{# each errors}}
+          <div class="alert alert-danger">{{ this.msg }}</div>
+          {{/each}}
+         {{/if}}
+
+       </div>
+
         <div id="body">{{{body}}}</div>
         <div id="footer">{{footer}}</div>
       </div>

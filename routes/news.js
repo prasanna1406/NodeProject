@@ -3,26 +3,31 @@ var router = express.Router();
 var request = require('request');
 
 router.get('/', function (req, res) {
+  sess = req.session;
+  if(sess.email){
+    res.redirect('/signup');
+  }
+  else{
+    var sources = [];
+    var options = {
+          url: 'https://newsapi.org/v1/sources?language=en'
+      }
 
-  var sources = [];
-  var options = {
-        url: 'https://newsapi.org/v1/sources?language=en'
-    }
-
-    request(options, callbackNewsSource);
+      request(options, callbackNewsSource);
 
 
-    function callbackNewsSource(error, response, body) {
-      //console.log(JSON.stringify(body));
-      if(!error && response.statusCode == 200) {
-        var resp = JSON.parse(body);
-        for (var i = 0; i < resp.sources.length; i++) {
-          sources.push(resp.sources[i]);
+      function callbackNewsSource(error, response, body) {
+        if(!error && response.statusCode == 200) {
+          var resp = JSON.parse(body);
+          sources = resp.sources;
+          // for (var i = 0; i < resp.sources.length; i++) {
+          //   sources.push(resp.sources[i]);
+          // }
+          res.render('news', {
+            title:'news',
+            sources : sources
+          });
         }
-        res.render('news', {
-          title:'news',
-          sources : sources
-        });
       }
     }
 
