@@ -1,55 +1,56 @@
 var express = require('express');
 var router = express.Router();
 var passport = require('passport');
-var LocalStrategy = require('passport-local').Strategy;
 
 var User = require('../config/manageUser');
+require('../config/passport')(passport);
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
     res.render('login', { title: 'Login' });
 });
 
-passport.use(new LocalStrategy({
-        passReqToCallback: true // don't forget this
-    },
-    function(req, username, password, done) {
-        console.log("asdasd " + username);
-        User.getUserByEmail(username, function(err, user) {
-            console.log("user : " + user);
-            if (err) throw err;
-            if (!user) {
-                return done(null, false, req.flash('error_msg', 'Unknown User'));
-            } else {
-                if (user.password == password) {
-                    return done(null, user);
-                } else {
-                    return done(null, false, req.flash('error_msg', 'Wrong password'));
-                }
-            }
-        });
-    }
-));
+// router.post('/dologin', passport.authenticate('local', {
+//         successRedirect: '/',
+//         failureRedirect: '/login',
+//         failureFlash: true
+//     }),
+//     function(req, res) {
 
-passport.serializeUser(function(user, done) {
-    console.log("in serializeUser");
-    done(null, user);
-});
+//         req.login(user.id, function(err) {
 
-// passport.deserializeUser(function(id, done) {
-//     console.log("AS");
-//     User.getUserById(id, function(err, user) {
-//         done(err, user);
-//     });
+//             res.redirect('/');
+
+//         })
+
+//     }
+// );
+
+// router.post('/dologin', function handleLocalAuthentication(req, res, next) {
+
+//     passport.authenticate('local', function(err, user, info) {
+//         if (err) return next(err);
+//         if (!user) {
+//             return res.json(403, {
+//                 message: "no user found"
+//             });
+//         }
+
+//         // Manually establish the session...
+//         req.login(user, function(err) {
+//             console.log("in login " + user.id);
+//             if (err) return next(err);
+//             res.redirect('/');
+//         });
+
+//     })(req, res, next);
 // });
 
-router.post('/dologin', passport.authenticate('local', {
-        successRedirect: '/',
-        failureRedirect: '/login',
-        failureFlash: true
-    }),
-    function(req, res) {
-        res.redirect('/');
-    });
+router.post('/dologin', passport.authenticate('local-login', {
+    successRedirect: '/', // redirect to the secure profile section
+    failureRedirect: '/login', // redirect back to the signup page if there is an error
+    failureFlash: true // allow flash messages
+}));
 
 
 

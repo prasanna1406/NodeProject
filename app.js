@@ -12,6 +12,9 @@ var expressValidator = require('express-validator');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var flash = require('connect-flash');
+var multer = require('multer');
+
+var upload = multer({ dest: 'uploads/' });
 
 
 winston.add(winston.transports.File, { filename: 'logfile.log' });
@@ -55,12 +58,17 @@ var login = require('./routes/login');
 var users = require('./routes/users');
 var quote = require('./routes/quote');
 var news = require('./routes/news');
+var assignment = require('./routes/assignment');
+var showUser = require('./routes/showUser');
+var cricapi = require('./routes/cricapi');
 
 var User = require('./config/manageUser');
 
 
 
 var dbconnection = require('./db_connection/db.js');
+
+//require('./routes/routes')(app, passport);
 
 app.engine('handlebars', exehbs({ defaultLayout: 'main' }));
 
@@ -70,6 +78,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'handlebars');
 app.set('disablePage', true);
 
+
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
@@ -78,17 +87,17 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(expressValidator());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-
-//passport init
-app.use(passport.initialize());
-app.use(passport.session());
-
 //Express session
 app.use(session({
     secret: 'secret',
     saveUninitialized: true,
     resave: true
 }));
+//passport init
+app.use(passport.initialize());
+app.use(passport.session());
+
+
 
 // In this example, the formParam value is going to get morphed into form body format useful for printing.
 app.use(expressValidator({
@@ -113,58 +122,19 @@ app.use(flash());
 
 //Global Variables
 app.use(function(req, res, next) {
+    res.locals.user = req.user;
     res.locals.success_msg = req.flash('success_msg');
     res.locals.error_msg = req.flash('error_msg');
     res.locals.error = req.flash('error');
     next();
-})
-
-
-// passport.use(new LocalStrategy(
-//     function(email, password, done) {
-//         console.log("asdasd " + email);
-//         User.getUserByEmail(email, function(err, user) {
-//             if (err) throw err;
-//             if (!user) {
-//                 console.log("reached");
-//                 return done(null, false, { message: 'Unknown Email Id, Please Register first' });
-//             } else {
-//                 if (user.password == password) {
-//                     console.log("reachedsdf");
-//                     return done(null, user);
-//                 } else {
-//                     console.log("reachedsd");
-//                     return done(null, false, { message: "Password not match" });
-//                 }
-//             }
-//         });
-//     }
-// ));
-
-
-// app.post('/login/dologin',
-//   passport.authenticate('local', { successRedirect: '/',
-//                                   failureRedirect: '/login',
-//                                   failureFlash: true }),
-//   function(req, res) {
-//     res.redirect('/');
-// });
-
-// passport.serializeUser(function(user, done) {
-//     console.log("AS");
-//     done(null, user.id);
-// });
-
-// passport.deserializeUser(function(id, done) {
-//     console.log("AS");
-//     User.getUserById(id, function(err, user) {
-//         done(err, user);
-//     });
-// });
+});
 
 
 
 
+/**
+ * routes
+ */
 app.use('/', index);
 app.use('/page1', page1);
 app.use('/page2', page2);
@@ -173,6 +143,14 @@ app.use('/login', login);
 app.use('/users', users);
 app.use('/quote', quote);
 app.use('/news', news);
+app.use('/assignment', assignment);
+app.use('/showUser', showUser);
+app.use('/cricapi', cricapi);
+app.get('/logout', function(req, res) {
+    req.logout();
+    res.redirect('/');
+});
+
 
 app.use(function(req, resp, next) {
     var err = new Error('not found');
@@ -180,7 +158,6 @@ app.use(function(req, resp, next) {
     resp.render('error');
 })
 
-app.use('/', index);
 
 http.createServer(app).listen(app.get('port'), function() {
     console.log("server has started");

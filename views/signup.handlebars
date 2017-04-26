@@ -19,10 +19,11 @@
         {{/if}}
       {{/if}} -->
 
-    <form method="post" action="/signup/registration">
+    <form method="post" action="/signup/registration" enctype="multipart/form-data">
       <h1>create an account</h1>
       <input name="name" type="text" placeholder="What's your name?" class="input pass"/>
       <input name="email" type="text" placeholder="Email address" class="input pass"/>
+      <input type="file" name="profileImage" class="input pass">
       <input name="password" type="password" placeholder="Choose a password" class="input pass"/>
       <input name="password2" type="password" placeholder="Confirm password" class="input pass"/>
       <input type="submit" value="Sign me up!" class="inputButton"/>

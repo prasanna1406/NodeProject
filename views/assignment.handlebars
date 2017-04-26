@@ -1,0 +1,71 @@
+<h2>
+    Select Patient Self-monitoring Schedule *</h2>
+<form action="/assignment/showResult" method="post">
+    <div class="container">
+        <div class="row">
+            <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-primary {{#if byFrequency}}{{else}}active{{/if}}">
+                <input type="radio" name="options" id="by-time-slot" autocomplete="off" value="byTime"> By Time Slot
+            </label>
+                <label class="btn btn-primary {{#if byFrequency}}active{{/if}}">
+                <input type="radio" name="options" id="by-frequency" autocomplete="off"  value="byFrequency"> By Frequency
+            </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="by-time-slot-d" {{#if byFrequency}}style="display: none;"{{else}}style="display: block;"{{/if}}>
+            <input id="beforeBreakfast" type="checkbox" name="timeSlot" value="Before Breakfast" />
+            <label class="checkbox-label" for="beforeBreakfast">Before Breakfast</label>
+            <input class="checkbox" id="beforeLunch" type="checkbox" name="timeSlot" value="Before Lunch" />
+            <label class="checkbox-label" for="beforeLunch"><span class="check">✓</span>Before Lunch</label>
+            <input class="checkbox" id="beforeDinner" type="checkbox" name="timeSlot" value="Before Dinner" />
+            <label class="checkbox-label" for="beforeDinner"><span class="check">✓</span>Before Dinner</label>
+            <input class="checkbox" id="beforeSupper" type="checkbox" name="timeSlot" value="Before Supper" />
+            <label class="checkbox-label" for="beforeSupper"><span class="check">✓</span>Before Supper</label>
+
+            <input id="afterBreakfast" type="checkbox" name="timeSlot" value="After Breakfast" />
+            <label class="checkbox-label" for="afterBreakfast">After Breakfast</label>
+            <input class="checkbox" id="afterLunch" type="checkbox" name="timeSlot" value="After Lunch" />
+            <label class="checkbox-label" for="afterLunch"><span class="check">✓</span> After Lunch</label>
+            <input class="checkbox" id="afterDinner" type="checkbox" name="timeSlot" value="After Dinner" />
+            <label class="checkbox-label" for="afterDinner"><span class="check">✓</span> After Dinner</label>
+            <input class="checkbox" id="afterSupper" type="checkbox" name="timeSlot" value="After Supper" />
+            <label class="checkbox-label" for="afterSupper"><span class="check">✓</span> After Supper</label>
+            <div class='errorDiv' id='slotError'></div>
+            {{#if errors}} {{# each errors}}
+            <div class="alert alert-danger error">{{ this.msg }}</div>
+            {{/each}} {{/if}}
+            <br>
+            <button type="submit" class="form-cotrol btn btn-primary" id="byTimeBtn">Save</button>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="by-frequency-d" {{#if byFrequency}}style="display: block;"{{else}}style="display: none;"{{/if}}>
+                    <div style="display: inline-flex;">
+                        <div class='col-md-4 quantity'>
+                            <input class="form-control" type="number" name="frequency" id="frequency" min="1" max="50" step="1" value="1">
+                        </div>
+                        <div class='col-md-3 form-control' style="border: 0px; margin-top: 18px;">times a</div>
+                        <div class='col-md-5'>
+                            <select class="form-control" style="height: 70px;" name="period" id="period">
+                                <option value="Day(s)">Day(s)</option>
+                                <option value="Week(s)">Week(s)</option>
+                                <option value="Month(s)">Month(s)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br />
+                    <br>
+                    <button type="submit" class="form-cotrol btn btn-primary" id="byFrequencyBtn">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+{{!--
+<div class="container">
+    <button class="form-cotrol btn btn-primary save-btn">Save</button>
+</div>--}}

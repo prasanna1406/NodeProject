@@ -3,31 +3,33 @@ var router = express.Router();
 
 var request = require('request');
 
-router.get('/', myfunction);
+var routes = require('../routes/routes');
+
+router.get('/', routes.isLoggedIn, myfunction);
+
 
 function myfunction(req, res) {
-  res.render('quote', {
-    title : 'Quote'
-  });
+    res.render('quote', {
+        title: 'Quote'
+    });
 }
 
-router.post('/new', function(req, res) {
-  var options = {
-        method : 'POST',
+router.post('/new', routes.isLoggedIn, function(req, res) {
+    var options = {
+        method: 'POST',
         url: 'https://andruxnet-random-famous-quotes.p.mashape.com/?cat=movies',
         headers: {
-          'X-Mashape-Key': process.env.XMASHAPEKEY || 'Wz5nfbQnxSmshER9OVSIWfXvdHWmp1CTXIUjsntop4Pu5mQdNE',
-        'Content-Type' : 'application/x-www-form-urlencoded',
-        'Accept' : 'application/json'
+            'X-Mashape-Key': process.env.XMASHAPEKEY || 'Wz5nfbQnxSmshER9OVSIWfXvdHWmp1CTXIUjsntop4Pu5mQdNE',
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'Accept': 'application/json'
         }
     };
     request(options, callback_get_quote);
 
     function callback_get_quote(error, response, body) {
-      //console.log(JSON.stringify(body));
-      if(!error && response.statusCode == 200) {
-        res.send(JSON.stringify(body));
-      }
+        if (!error && response.statusCode == 200) {
+            res.send(JSON.stringify(body));
+        }
     }
 });
 module.exports = router;

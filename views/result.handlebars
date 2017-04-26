@@ -1,0 +1,16 @@
+{{#if showResult}}
+    {{#if byTimeSlot }}
+    <h2> You have selected by time slot option </h2>
+         {{# each slots}}
+    {{this}}
+    {{/ each}}
+    {{/if}}
+    {{#if byFrequency}}
+    <h2> You have selected by frequency option </h2>
+     {{# each slots}}
+    {{this}}
+    {{/ each}}
+    
+    {{/if}}
+   
+{{/if}}
